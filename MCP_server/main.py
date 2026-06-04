@@ -1,5 +1,8 @@
+from weather import mcp
+
+
 def main():
-    print("Hello from mcp-server!")
+    mcp.run(transport="stdio")
 
 
 if __name__ == "__main__":
